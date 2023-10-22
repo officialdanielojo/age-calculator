@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+main {
+  width: 90%;
+  border-radius: 20px 20px 100px 20px;
+  background-color: #ffffff;
+}
+
+/* Section one css */
+.sect-one {
+  width: 100%;
+  display: flex;
+  padding: 60px 20px 40px 20px;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.sect-one form h1 {
+  width: 40%;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+
+.sect-one form input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+/* section two css */
+.sect-two {
+  padding-inline: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sect-two div {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #874bff;
+  align-items: center;
+  justify-content: center;
+}
+
+.sect-two img {
+  width: 30px;
+}
+
+.sect-two .hr-one {
+  border: 1px solid #ededed;
+  width: 40%;
+  height: 0px;
+  position: relative;
+  top: 35px;
+}
+
+.sect-two .hr-two {
+  border: 1px solid #ededed;
+  width: 40%;
+  height: 0px;
+  position: relative;
+  top: 35px;
+}
+
+/* footer section css */
+footer {
+  padding: 40px 20px 60px 20px;
+  font-size: 60px;
+  font-weight: 1000;
+  line-height: 65px;
+  font-style: italic;
+}
+
+footer span {
+  color: #874bff;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    width: 700px;
+  }
+
+  /* section one media query*/
+  .sect-one {
+    width: 80%;
+    margin-inline: 0px;
+    padding: 60px 20px 0px 20px;
+  }
+
+  .sect-one form h1 {
+    font-size: 12px;
+    font-weight: 800;
+    opacity: 0.4;
+  }
+
+  .sect-one form input {
+    width: 90%;
+    font-size: 25px;
+  }
+
+  /* section two media query */
+  .sect-two {
+    padding-inline: 0px;
+  }
+
+  .sect-two div {
+    position: relative;
+    left: 270px;
+  }
+
+  .sect-two .hr-one {
+    right: 10px;
+  }
+
+  .sect-two .hr-two {
+    right: 80px;
+  }
+
+  /* footer media query */
+  footer {
+    padding: 0px 20px 40px 20px;
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
